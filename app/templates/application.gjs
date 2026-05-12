@@ -1,12 +1,7 @@
 import { pageTitle } from 'ember-page-title';
-import { WelcomePage } from 'ember-welcome-page';
 
 <template>
-  {{pageTitle "LilysLibraryFront"}}
+  {{pageTitle "Lily' s Library"}}
 
-  {{outlet}}
-
-  {{! The following component displays Ember's default welcome message. }}
-  <WelcomePage @extension="gjs" />
-  {{! Feel free to remove this! }}
+  <h1>Lily' s Library</h1>
 </template>
