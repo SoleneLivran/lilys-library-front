@@ -3,5 +3,9 @@ import { pageTitle } from 'ember-page-title';
 <template>
   {{pageTitle "Lily' s Library"}}
 
-  <h1>Lily' s Library</h1>
+  <div class="container">
+    <div class="body">
+      {{outlet}}
+    </div>
+  </div>
 </template>
